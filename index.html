@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,21 +34,155 @@
               <li><a href="#">Projects</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
-            
           </div>
           <div class="left-col">
-            <div class="introduction">
-              <h3>What I do</h3>
-              <p>I am a software engneer</p>
+            <div class="introduction-shadow">
+              <div class="introduction">
+                <h3>What I do</h3>
+                <p>
+                  I am a junior engineer and now I'm pursuing Full Stack Web
+                  Development course at Newton School.
+                </p>
+              </div>
             </div>
           </div>
           <div class="right-col">
-            <img id="profile" src="/assests//images/photograph.jpg" alt="Profile picture">
-            
+            <img
+              id="profile"
+              src="/assests//images/photograph.jpg"
+              alt="Profile picture"
+            />
+            <!-- <p>Age <span class="age">24</span></p> -->
           </div>
         </div>
       </div>
     </section>
-    <section class="second-section"></section>
+    <section class="second-section">
+      <div class="container">
+        <div class="about">
+          <div>
+            <h3>About me</h3>
+            <p>
+              I have developed new projects with React as fronted and Nodejs as
+              backend
+            </p>
+            <br>
+            <p>
+              I keep busy learing and developing new projects with flutter for
+              mobile application
+            </p>
+            <br>
+            <hr />
+            <br>
+            <h3>Skills</h3>
+            <div id="skills">
+              <ul>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Postgres</li>
+              </ul>
+              <ul>
+                <li>AWS</li>
+                <li>Heroku</li>
+                <li>HTML/CSS</li>
+                <li>Rest API</li>
+                <li>Flutter</li>
+                <li>React Native</li>
+                
+            </div>
+          </div>
+
+          <div class="social">
+            <div class="expertise">
+              <h3>EXPERTISE</h3>
+              <br>
+              <p>
+                Cross Platform Mobile Application developer.
+              </p>
+            <p>
+              Full Stack developer with Nodejs + React:
+              <a target="_blank" href="resume.pdf">Download Resume</a>
+            </p>
+            </div>
+            <h3>
+              <br><br>
+              Find me
+            </h3>
+            <div class="social-cont">
+                <p><a target="_blank" href="https://twitter.com/AhmedNasirul">Twitter</a> </p><br>
+                <p><a target="_blank" href="https://www.linkedin.com/in/nasirul-ahmed-266513165/">LinkedIn</a> </p><br>
+                <p><a target="_blank" href="https://www.facebook.com/nasirul.ahmed.3">Facebook</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="first-section">
+      <div class="container">
+        <br><br>
+        <h3 style="text-align: center; font-size:26px;">Some of my Projects</h3>
+        <br><br>
+        <div class="post-wrapper">
+
+          <div class="post">
+            <img class="thumbnail" src="/assests//images/post1.PNG" alt="post1">
+            <div class="post-details">
+              <h6 class="post-title">Flutter Web Application</h6>
+              <p class="post-content">Dashboard for admin</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img class="thumbnail" src="/assests//images/post2.PNG" alt="post1">
+            <div class="post-details">
+              <h6 class="post-title">Recording App</h6>
+              <p class="post-content">Some dcontent of the post</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div class="post">
+            <img class="thumbnail" src="/assests//images/post1.PNG" alt="post1">
+            <div class="post-details">
+              <h6 class="post-title">Unknown Title</h6>
+              <p class="post-content">Some content of the post</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <br>
+    </section>
+    <section class="second-section">
+      <div class="container">
+        <br>
+        <h3 style="text-align: center;">Get in touch!</h3>
+        <br>
+        <form  id="contact-form" action="">
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" id="">
+          
+          <label>Subject</label>
+          <input class="input-field" type="text" name="name" id="">
+          
+          <label>Email</label>
+          <input class="input-field" type="email" name="name" id="">
+          
+          <label>Message</label>
+          <textarea class="input-field" name="message" id="" cols="30" rows="2"></textarea>
+          
+
+
+
+
+          <input id="submit-button" type="submit" name="submit" value="Send" >
+        </form>
+      </div>
+    </section>
   </body>
 </html>
