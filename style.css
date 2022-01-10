@@ -281,13 +281,13 @@ div.nav  li a:hover:after {
 
 #contact-form{
   display: block;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   margin-bottom: 50px;
   border: 1px solid var(--borderCol);
   border-radius: 5px;
   background-color: var(--mainCol);
-  padding: 15px;
+  padding: 25px;
 }
 .input-field{
   width: 100%;
