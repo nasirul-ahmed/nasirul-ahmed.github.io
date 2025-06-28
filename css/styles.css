@@ -1354,6 +1354,10 @@ textarea.form-control {
     height: 250px;
   }
 
+  .snap-container {
+    scroll-padding-top: 5rem
+  }
+
   .section-content {
     padding: 0px;
   }
