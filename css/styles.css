@@ -578,9 +578,9 @@ section.active {
   justify-content: center;
 }
 
-#contact .section-content {
+/* #contact .section-content {
   margin: 0 auto;
-}
+} */
 
 .section-title {
   font-size: 2.5rem;
@@ -911,7 +911,7 @@ section.active {
   border-radius: 8px;
   color: var(--light);
   font-family: inherit;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   transition: var(--transition);
 }
 
@@ -1332,7 +1332,7 @@ textarea.form-control {
   }
 
   .contact-container {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
   }
 }
 

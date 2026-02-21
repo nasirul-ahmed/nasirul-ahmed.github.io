@@ -121,8 +121,8 @@ resumeElements.forEach((btn) => {
   btn.addEventListener("click", (e) => {
     e.preventDefault();
     const link = Object.assign(document.createElement("a"), {
-      href: "assets/Nasirul_Ahmed_Resume.pdf",
-      download: "nahmed_resume.pdf",
+      href: "assets/resume.pdf",
+      download: "Nasirul_Ahmed_Resume.pdf",
     });
     document.body.appendChild(link);
     link.click();

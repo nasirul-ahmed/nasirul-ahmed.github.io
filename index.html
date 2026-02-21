@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +13,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
   </head>
   <body>
     <div class="snap-container">
@@ -31,7 +35,7 @@
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
             <a
-              href="assets/Nasirul_Ahmed_Resume.pdf"
+              href="assets/resume.pdf"
               class="resume-btn"
               id="resume-download"
             >
@@ -283,7 +287,7 @@
                 <h3 class="project-title">Crash Game</h3>
                 <p class="project-description">
                   Designed and developed "Crash", a scalable multiplayer game
-                  with real-time communication and optimized data handling.
+                  with real-time communication and optimized data handling in both frontend and backend.
                 </p>
                 <div class="project-tech">
                   <span class="tech-item">Next.js</span>
@@ -292,7 +296,7 @@
                   <span class="tech-item">Redis</span>
                   <span class="tech-item">WebSocket</span>
                 </div>
-                <a href="#" class="project-link">
+                <a href="https://lobby.pixentech.com/lobby/lobby.html" class="project-link">
                   View Details <i class="fas fa-arrow-right"></i>
                 </a>
               </div>
@@ -358,7 +362,7 @@
             </div>
 
             <div class="contact-form">
-              <form>
+              <form id="contact-form">
                 <div class="form-group">
                   <label for="name">Name</label>
                   <input type="text" id="name" class="form-control" required />
@@ -461,5 +465,6 @@
     </div>
 
     <script src="js/main.js"></script>
+    <script src="js/services.js"></script>
   </body>
 </html>
